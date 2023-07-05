@@ -28,11 +28,15 @@ func main() {
 	r.HandleFunc("/users/{id}", routes.DeleteUserHandler).Methods("DELETE")
 
 	//tasks routes
-
 	r.HandleFunc("/tasks", routes.GetTasksHadnle).Methods("GET")
 	r.HandleFunc("/tasks", routes.CreateTaskHandler).Methods("POST")
 	r.HandleFunc("/tasks/{id}", routes.GetTaskHadnle).Methods("GET")
 	r.HandleFunc("/tasks/{id}", routes.DeleteTaskHAndler).Methods("DELETE")
+
+	// Manejador para servir archivos estáticos
+	staticFileDirectory := http.Dir("./static/")
+	staticFileHandler := http.StripPrefix("/static/", http.FileServer(staticFileDirectory))
+	r.PathPrefix("/static/").Handler(staticFileHandler)
 
 	http.ListenAndServe(":3000", r)
 
