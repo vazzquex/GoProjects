@@ -4,9 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"go-gorm-restapi/db"
+	"go-gorm-restapi/models"
+
 	"github.com/gorilla/mux"
-	"github.com/vazzquex/go-gorm-restapi/db"
-	"github.com/vazzquex/go-gorm-restapi/models"
 )
 
 func GetUsersHandler(w http.ResponseWriter, r *http.Request) {

@@ -1,4 +1,4 @@
-module github.com/vazzquex/go-gorm-restapi
+module go-gorm-restapi
 
 go 1.20
 

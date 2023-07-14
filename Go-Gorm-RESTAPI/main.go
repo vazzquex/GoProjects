@@ -3,10 +3,11 @@ package main
 import (
 	"net/http"
 
+	"go-gorm-restapi/db"
+	"go-gorm-restapi/models"
+	"go-gorm-restapi/routes"
+
 	"github.com/gorilla/mux"
-	"github.com/vazzquex/go-gorm-restapi/db"
-	"github.com/vazzquex/go-gorm-restapi/models"
-	"github.com/vazzquex/go-gorm-restapi/routes"
 )
 
 func main() {
