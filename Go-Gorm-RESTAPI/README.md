@@ -40,7 +40,7 @@ Una vez que el servidor está en marcha, puedes interactuar con la API a través
 
     Ejemplo de petición curl: 
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"first_name":"Santiago","last_name": "Vazquez", "email":"john@example.com"}' http://localhost:3000/users
+    curl -X POST -H "Content-Type: application/json" -d '{"first_name":"Santiago","last_name": "Vazquez", "email":"santiago@example.com"}' http://localhost:3000/users
     ```
 - Eliminar un usuario: DELETE `/users/{id}`
 - Obtener todas las tareas: GET `/tasks`
@@ -51,6 +51,4 @@ Una vez que el servidor está en marcha, puedes interactuar con la API a través
 ## Cómo contribuir 🤝
 
 Las contribuciones son siempre bienvenidas. Si encuentras algún problema o tienes alguna idea para mejorar el proyecto, no dudes en abrir un 'issue' o enviar un 'pull request'.
-
-Gracias por visitar y probar nuestro proyecto! 😄🙏🚀
 
