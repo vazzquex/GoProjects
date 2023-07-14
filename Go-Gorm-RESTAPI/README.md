@@ -14,7 +14,7 @@ Este proyecto utiliza varios paquetes de Go:
 Para nuestra base de datos, usamos PostgreSQL ejecutándose en un contenedor Docker. Aquí está el comando que usamos para ejecutar la base de datos:
 
 ```bash
-docker run --name some-postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=root -d postgres
+ddocker run --name some-postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=root -p 5432:5432 -d postgres
 ```
 ## Código 🖥️
 
