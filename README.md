@@ -6,9 +6,9 @@
 
 Los proyectos en este repositorio varían en complejidad y temática, pero todos ellos están centrados en el uso de Go. Algunos proyectos implican la creación de APIs REST, otros podrían ser programas más sencillos,otros se basan en crear microservicios ,y otros más involucrarán el uso de bases de datos como PostgreSQL.
 
-## Herramientas Utilizadas 🛠️
+## Algunas Herramientas Utilizadas 🛠️
 
-Aquí hay una lista de algunas de las herramientas y tecnologías que he usado en mis proyectos hasta ahora:
+Aquí hay una lista de algunas de las herramientas y tecnologías que he utilizado o planeo utilizar en mis proyectos:
 
 - **Go:** Lenguaje de programación usado para la creación de todos los proyectos en este repositorio.
 - **PostgreSQL:** Sistema de gestión de bases de datos relacional utilizado en varios proyectos para almacenar y gestionar los datos.
